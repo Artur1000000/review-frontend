@@ -8,8 +8,6 @@ export default function ChangePassword() {
   const [status, setStatus] = useState<string | null>("loading");
   const { email } = useParams();
 
-  console.log(email);
-
   const verify = async (email: string) => {
     await axios
       .post(`/verify/${email}`, { email })

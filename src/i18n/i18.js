@@ -38,6 +38,21 @@ i18n
           send: "отправить"
         },
       },
+      pl:{
+        translation:{
+          login: "login",
+          learnMore: "dowiedz się więcej",
+          forgotPassword: "Zapomniałem hasła",
+          registration: "Rejestracja",
+          films: "filmy",
+          games: "gry",
+          books: "książki",
+          theme: "temat",
+          signUp: "Zarejestruj się",
+          logIn: "Zaloguj się",
+          send: "wyślij"
+        }
+      }
     },
   });
 

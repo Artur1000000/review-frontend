@@ -13,7 +13,6 @@ export default function AuthPage() {
   const { status } = useAppSelector((state) => state.auth);
 
   const onSubmit = (data: IUserDataSend) => {
-    console.log(data.email, data.password);
     dispatch(authUser(data))
   };
 
